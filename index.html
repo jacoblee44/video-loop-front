@@ -1,0 +1,704 @@
+<html lang="en" class="uk-notouch translated-ltr"><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MIKMAKSTUDIO |  (re)creation studio</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="Category" content="Internet">
+	<meta name="Author" content="MIKMAK STUDIO">
+	 <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Mikmak Studio est une agence de communication digitale étoilée parisienne">
+	<meta property="og:site_name" content="Mikmak">
+	<link media="all" type="text/css" rel="stylesheet" href="./css/uikit.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link href="https://db.onlinewebfonts.com/c/0f9c349da923afea31fae4db7b8094f0?family=Gotham+Black" rel="stylesheet">
+	<link href="https://db.onlinewebfonts.com/c/924ee4158324c02e3e0d62e54cafd14f?family=Gotham+Book" rel="stylesheet">
+	
+	
+	<link media="all" type="text/css" rel="stylesheet" href="./css/main.min.css">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="./js/uikit.min.js"></script>
+
+	
+	
+		
+	<style>
+	.aa.dots a { cursor:default; }
+	#references .portfolio .list .panel {
+		background: #ABABAB !important;
+	}
+	.modal-content .content .content-right {
+		padding: 0px 0;
+		overflow: hidden;
+	}
+	.nodisplay {
+		display: none;
+	}
+	@media  screen and (max-width:640px) {
+		.modal-content .main-banner .logo {
+			margin: 20px 0 0 25px;
+			width: 60px;
+			float: left;
+			height: 60px;
+		}
+		.video-frame {
+			display: none;
+		}
+		.details{
+			overflow-y: auto;
+		}
+	}
+	::webkit-scrollbar{
+		overflow-y: auto;
+		display: none;
+	}
+	.details{
+		overflow-y: auto;
+		
+	}
+	.tiny {
+		background-color:hsl(0deg 0% 90% / 70%);
+		overflow: auto;
+	}
+	
+	
+	
+	.cross-btn {
+		position: absolute;
+		top: 14px;
+		right: 21px;
+		width: 53px;
+		height: 53px;
+		z-index: 99;
+	}
+	
+	.play-store { 
+		display: inline-block;
+		float: right;
+		margin-top: 20px;
+		font-weight: bold;
+	}
+	.play-store ul { 
+		list-style: none;
+		float: right;
+	}
+	.play-store ul li { 
+		float: left;
+		margin-left:10px;
+	}
+	
+	.modal-content .content .content-left .tescome-description > div { 
+		display: inline-block;
+	}
+	div.go {
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		top: 40%;
+	}
+	div.go span {
+		background-color: #FFF;
+		border: 3px solid #000;
+		padding: 5px 10px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	::placeholder {
+		color: white;
+		opacity: 1; /* Firefox */
+	  }
+	  body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg, #myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+  }
+  
+  .item-title {
+	padding: 8px 50px 8px 32px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Gotham Black';
+	font-weight: bolder;
+	color: #818181;
+	display: block;
+	text-align: right;
+	transition: 0.3s;
+  }
+  .social {
+	padding: 8px 0px 8px 0px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Gotham Black';
+	font-weight: bolder;
+	color: #818181;
+	display: block;
+	text-align: right;
+	transition: 0.3s;
+  }
+  .social1 {
+	padding: 8px 0px 8px 0px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Gotham Black';
+	font-weight: bolder;
+	color: #818181;
+	display: block;
+	text-align: left;
+	transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+  #accueil {
+	color: #39A2D3;
+  }
+  #digital1{
+	color: #FF5B4B;
+  }
+  #evenementiel{
+	color: #D6437D;
+  }
+  #branding1{
+	color: #00CFD7;
+  }
+  #contact1{
+	color: #B966CC;
+  }
+
+	</style>
+	
+	<meta name="theme-color" content="#ffffff">
+	
+	<!--[if lt IE 9]>
+	<script src="https://mikmakstudio.com/assets/front/js/html5shiv.min.js"></script>
+	
+	<![endif]-->
+	<style id="mttstyle">
+		#mttContainer {
+		  left: 0 !important;
+		  top: 0 !important;
+		  width: 1000px !important;
+		  margin-left: -500px !important;
+		  position: fixed !important;
+		  z-index: 100000200 !important;
+		  background: none !important;
+		  pointer-events: none !important;
+		  display: inline-block !important;
+		}
+		.bootstrapiso .tooltip {
+		  width:auto  !important;
+		  height:auto  !important;
+		  background: none !important;
+		  border:none !important;
+		  border-radius: 0px !important;
+		  visibility: visible  !important;
+		  pointer-events: none !important;
+		}
+		.bootstrapiso  .bs-tooltip-top { 
+		  margin-bottom: 5px  !important;
+		}
+		.bootstrapiso  .bs-tooltip-bottom { 
+		  margin-top: 5px  !important;
+		}
+		.bootstrapiso .tooltip-inner {
+		  font-size: 14px  !important;
+		  max-width: 200px  !important;
+		  text-align: center !important;
+		  backdrop-filter: blur(2px) !important; 
+		  background-color: #000000b8 !important;
+		  color: #ffffffff !important;
+		  pointer-events: auto;
+		}
+		.bootstrapiso .arrow::before {
+		  border-top-color: #000000b8 !important;
+		}
+		.bootstrapiso .arrow {
+		  font-size: 14px  !important;
+		  margin: auto  !important;
+		}
+		.bootstrapiso .arrow::after {
+		  display:none !important;
+		}
+		.ocr_text_div{
+		  position: absolute;
+		  opacity: 0.7;
+		  font-size: calc(100% + 1cqw);
+		  overflow: hidden;
+		  border: 2px solid CornflowerBlue;
+		  color: transparent !important;
+		  background: none !important;
+		}
+		.contact-pos{
+			z-index: 100; 
+			top: 60%; 
+			bottom: 10%
+		}
+		
+		@media (max-device-width: 640px) 
+		{
+			.contact-pos{
+				z-index: 100; 
+				top: 50%; 
+				bottom: 10%
+			}
+		}
+		</style>
+		<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.qhDXWpKopYk.L.W.O/d=0/rs=AN8SPfp0QXhhaDDdjg_LgcSqoZiPEzC1tw/m=el_main_css"></head>
+	<body class="landscape loaded">
+	
+	<header class="header">
+		<h1 class="hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mikmak Studio</font></font></h1>
+		<figure class="logo"><img src="./assets/mikmak.png" width="100" height="100" alt="Mikmak Studio"></figure>
+		<p class="language">
+			<a href="https://mikmakstudio.com/lang/fr"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FR</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+			&nbsp;/&nbsp;
+			 </font></font><a href="https://mikmakstudio.com/lang/en" class="active"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EN</font></font></a>
+		</p>
+		<a href="#" style="float: right; display: block; margin: auto; position: absolute; top: 30px; right: 25px; " onclick="openNav()"><div><img src="./assets/BTN.png" alt="" > </div></a>
+	</header>
+	
+	<div class="preloader"></div>
+	
+	<main class="main">
+		<div id="scroll-bar" style="width: 10px; margin: auto; overflow: hidden; display: block; position: fixed; right: -95%; left: 5px; top: 25%;bottom: 25%; z-index: 400; transition: opacity .2s ease;">
+			<div style="position: fixed; width: 2px; height: 100%; display: flex;margin-left:4px; background-image: url('./assets/line.png'); border-radius: 4px; opacity: 50%"></div>
+			<a href="#" class="agency" data-section="0" title="Intro" style="position: relative; width: 10px; height: 20%; display: flex; background-color: white; border-radius: 10px; opacity: 80%">
+			</a>
+			<a href="#" class="digital" data-section="0" title="Intro" style="position: relative; width: 10px; height: 20%; display: flex; background-color: white; border-radius: 10px; opacity: 0"></a>
+			<a href="#" class="events" data-section="0" title="Intro" style="position: relative; width: 10px; height: 20%; display: flex; background-color: white; border-radius: 10px; opacity: 0"></a>
+			<a href="#" class="branding" data-section="0" title="Intro" style="position: relative; width: 10px; height: 20%; display: flex; background-color: white; border-radius: 10px; opacity: 0"></a>
+			<a href="#" class="contact" data-section="0" title="Intro" style="position: relative; width: 10px; height: 20%; display: flex; background-color: white; border-radius: 10px; opacity: 0"></a>
+		</div>
+		<div id="scroll-title" style="width: 100px; margin: auto; overflow: hidden; display: block; position: fixed; right: -90%; left: 10px; top: 25%;bottom: 25%; z-index: 10;">
+			<div style="height: 20%; display: flex; align-items: center;color: white;" class="agency">Agency</div>
+			<div style="height: 20%; display: flex; align-items: center;color: white; opacity: 0" class="digital">Digital</div>
+			<div style="height: 20%; display: flex; align-items: center;color: white; opacity: 0" class="events">Events</div>
+			<div style="height: 20%; display: flex; align-items: center;color: white; opacity: 0" class="branding">Branding</div>
+			<div style="height: 20%; display: flex; align-items: center;color: white; opacity: 0" class="contact">Contact</div>
+		</div>
+		<div id="main-index">
+
+			<section id="index" class="page page-index">
+				<div class="centercontentdiv">
+					<div>
+						<figure class="videoposition">
+							<video muted class="begin index-intro visible" style="background-color: transparent !important; width: 60%" preload="auto" autoplay>
+								<source src="./video/AGENCE.mp4" type="video/mp4">
+							</video>
+							
+						</figure>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-lg-10">
+									<div class="row" style="color: white; font-family: 'Gotham Book'">
+										<div class="col-lg-6">
+											<span >
+												Chez nous, c'est un peu comme dans la cuisine des mousquetaires: on fourmille<br> d'idées.
+												Tu nous donnes ta recette, on t'en fait un plat gastro, d'un vin de table, on te sort<br> 
+												une cuvée millésimée. Mais pour que tu comprennes bien ces tours de<br>
+												passe-passe, il faut qu'on t'en raconte un peu plus sur nous.
+												<br>
+												<br>
+												Mikmak Studio est une agence de communication digitale parisienne qui a vu le<br> 
+												jour en 2015. Chez nous, on est jeune et dynamique. Oui, on sait, ça fait un peu<br> 
+												militant républicain.
+					
+					
+											</span>
+										</div>
+										<div class="col-lg-6">
+											<span>
+												Dans notre agence, ce qu'on aime par-dessus tout, c'est expérimenter de nou-<br>
+												velles techniques créatives et innover toujours plus. Pour cela, on travaille avec <br>
+												plein de cuistots du monde entier (t'as déjà mangé des sushis à Erevan? Tu rates <br>
+												quelque chose), pour accorder parfaitement vos projets.
+												<br>
+												<br>
+												Dans notre agence, ce qu'on aime par-dessus tout, c'est expérimenter de nou-<br>
+												velles techniques créatives et innover toujours plus. Pour cela, on travaille avec <br>
+												plein de cuistots du monde entier (t'as déjà mangé des sushis à Erevan? Tu rates <br>
+												quelque chose), pour accorder parfaitement vos projets.
+					
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-1"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			<section id="branding" class="page page-about">
+				<div class="centercontentdiv">
+					<div>
+						<figure class="videoposition">
+							<video muted class="branding-begin index-intro visible" style="background-color: transparent !important; width: 60%" preload="auto" autoplay>
+								<source src="./video/BRANDING.mp4" type="video/mp4">
+							</video>
+							
+						</figure>
+						<div class="buttonhome">
+							<a href="#" class="vio pcbiorbutton" style="color: #00d4da;">VOIR NOS PROJETS</a>
+						</div>
+					</div>
+				</div>
+			</section>	
+			<section id="contact" class="page page-process">
+				<div class="centercontentdiv">
+					<div>
+						<figure class="videoposition">
+							<video muted class="contact-begin index-intro visible" style="background-color: transparent !important; width: 60%" preload="auto" autoplay>
+								<source src="./video/CONTACT.mp4" type="video/mp4">
+							</video>
+							
+						</figure>
+						<div class="container contact-pos">
+							<div class="row">
+								<div class="col-lg-2"></div>
+								<div class="col-lg-8">
+									<div class="row">
+										<div class="col-lg-4" style="color: white; font-size: 10px; padding-left: 10%">
+											<strong >MIKMAK STUDIO<br></strong>
+											<br>
+											<span>2 RUE DU FAUBOURG POISSONNERE<br></span>
+											<span>75010PARIS<br></span>
+											<span>FRANCE<br></span>
+											<span>&nbsp;</span>
+											<br>
+											<span>TEL : +33 (0) 1 45 28 70 83</span>
+											<div style="display: flex; justify-content: center">
+												<a href="#" id="linkedin" class="social1"><img src="./assets/linkedin-white.png" alt="a" style="width: 50%;"></a>
+												<a href="#" id="instagram" class="social1"><img src="./assets/instagram-white.png" alt="a" style="width: 50%;"></a>
+												<a href="#" id="facebook" class="social1"><img src="./assets/facebook-white.png" alt="a" style="width: 50%;"></a>
+												<a href="#" id="youtube" class="social1"><img src="./assets/youtube-white.png" alt="a" style="width: 50%;"></a>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<input type="text" placeholder="NOM" style="color: white; font-size: 10px; border-radius: 15px; background-color: transparent; height: 30px; width: 100%; border: 2px solid white; padding: 10px">
+											<input type="email" placeholder="EMAIL" style="color: white; font-size: 10px; border-radius: 15px; background-color: transparent; height: 30px; width: 100%; border: 2px solid white; padding: 10px; margin-top: 15px">
+										</div>
+										<div class="col-lg-4">
+											<textarea name="msg" cols="80" placeholder="MESSAGE" style="color: white; font-size: 10px; border-radius: 15px; background-color: transparent; height: 200px; width: 100%; border: 2px solid white; padding: 10px;" row="20"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-2"></div>
+							</div>
+							<a href="#" class="vio pcbiorbutton1">ENVOYER</a>
+						</div>
+					</div>
+				</div>
+				
+				
+			</section>	
+			<section id="digital" class="page page-news" >
+				<div class="centercontentdiv">
+					<div>
+						<figure class="videoposition">
+							<video muted class="digital-begin index-intro visible" style="background-color: transparent !important; width: 60%" preload="auto" autoplay>
+								<source src="./video/DIGITAL.mp4" type="video/mp4">
+							</video>
+							
+						</figure>
+						<div class="buttonhome">
+							<a href="#" class="vio pcbiorbutton" style="color: #ff6558;">VOIR NOS PROJETS</a>
+						</div>
+					</div>
+				</div>
+			</section>	
+			<section id="event" class="page page-skills">
+				<div class="centercontentdiv">
+					<div>
+						<figure class="videoposition">
+							<video muted class="event-begin index-intro visible" style="background-color: transparent !important; width: 60%" preload="auto" autoplay>
+								<source src="./video/EVENTS.mp4" type="video/mp4">
+							</video>
+							
+						</figure>
+						<div class="buttonhome">
+							<a href="#" class="vio pcbiorbutton" style="color: #dc4a87;">VOIR NOS PROJETS</a>
+						</div>
+					</div>
+				</div>
+			</section>	
+		</div>
+		
+	</main>
+	<section id="details" class="page pre active details" style="height: 0; background: #3fa3d1">
+		<div class="container" style="margin-top: 140px; position: absolute; z-index: 100; left: 5%; right: 5%">
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<div class="row imagebodycontent">
+						<div class="imagebody"id="myImg">
+							<a href="#"><img src="./assets/Calque1.png" alt="" class="imgBack"></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>
+						<div class="imagebody" id="myImg1">
+							<a href="#"><img src="./assets/logo2.png" alt="" class="imgBack"></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>	
+						<div class="imagebody" id="myImg2">
+							<a href="#"><img src="./assets/logo3.png" alt="" class="imgBack" ></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>	
+						<div class="imagebody"id="myImg3" >
+							<a href="#"><img src="./assets/logo4.png" alt=""  class="imgBack"></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>
+						<div class="imagebody" id="myImg4">
+							<a href="#"><img src="./assets/logo6.png" alt="" class="imgBack" ></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>
+						<div class="imagebody" id="myImg5">
+							<a href="#"><img src="./assets/logo4.png" alt="" class="imgBack"></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>
+						<div class="imagebody" id="myImg6">
+							<a href="#"><img src="./assets/logo7.png" alt="" class="imgBack" ></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>
+						<div class="imagebody" id="myImg7">
+							<a href="#"><img src="./assets/logo8.png" alt="" class="imgBack" ></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>
+						<div class="imagebody" id="myImg8">
+							<a href="#"><img src="./assets/logo9.png" alt="" class="imgBack" ></a>
+							<div class="centerletter"><img src="./assets/logo11.png" alt=""></div>
+							<div class="leftbottomtext">
+								<div class="content1">DOBBLE</div>
+								<div class="content2">Brand content / illustrations</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<a href="#" class="vio pcbiorbutton">VIOR NOS PROJETS</a>
+			<a href="#" class="close1" style="position: absolute; top: -40px; left: 95%; right: 5%; z-index: 300; width: 3%; padding-bottom: 50px"><img src="./assets/Cross.png" alt="" ></a>
+		</div>
+	</section>
+
+	<section id="tiny" class="page pre active tiny" style="height: 0; display: none">
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-10" >
+				<div class="row">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-10"style="background-color: #E8E4DD; padding-left: 0; padding-right: 0" id="tinycontent">
+						<div style="display: flex; justify-content: space-between">
+							<div style=" margin-top: 20px; margin-left: 20px">
+								<img src="./assets/title1.png" alt="" style="width: 40%;">
+							</div>
+							<div style=" margin-top: 20px; margin-right: 20px; font-family: 'Gotham Book'; color: gray; font-size: 10px; text-align: right">
+								<span >WEBDESIGN - FRONTEND - BACKEND</span><br>
+								<span>2023</span>
+							</div>
+						</div>
+						<div style="margin-top:80px; width: 30%; margin-left: auto; margin-right: auto;">
+							<img src="./assets/phone.png" alt="">
+						</div>
+						<div style="margin-top: 40px; margin-left: 125px; margin-right: 125px; font-size: 10px; font-family: 'Gotham Book'; color: gray">
+							<span>
+								Chez nous, c'est un peu comme dans la cuisine des mousquetaires: on fourmille d'idées.<br>
+								Tu nous donnes ta recette, on t'en fait un plat gastro, d'un vin de table, on te sort une cuvée millésimée. Mais pour que tu comprennes bien ces tours de passe-passe, il faut qu'on t'en raconte un peu plus sur nous.
+								<br>
+								<br>
+								Mikmak Studio est une agence de communication digitale parisienne qui a vu le jour en 2015. Chez nous, on est jeune et dynamique. Oui, on sait, ça fait un peu militant républicain.
+							</span>
+						</div>
+						<img src="./assets/bottom1.png" alt="" style="margin-top: 40px; width: 100%">
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+			</div>
+			<div class="col-lg-1"></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="menu">
+		
+	</section>
+	<!-- <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px"> -->
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+	<span class="close">&times;</span>
+	<img class="modal-content" id="img01">
+	<div id="caption"></div>
+	</div>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		<div style="display: flex; justify-content: flex-end; margin-right: 50px">
+			<a href="#" id="linkedin" class="social"><img src="./assets/linkedin.png" alt="a" style="width: 50%;"></a>
+			<a href="#" id="instagram" class="social"><img src="./assets/instagram.png" alt="a" style="width: 50%;"></a>
+			<a href="#" id="facebook" class="social"><img src="./assets/facebook.png" alt="a" style="width: 50%;"></a>
+			<a href="#" id="youtube" class="social"><img src="./assets/youtube.png" alt="a" style="width: 50%;"></a>
+		</div>
+		<a href="#" class="item-title" id="accueil" style="margin-top: 30%;">ACCUEIL</a>
+		<a href="#" class="item-title" id='digital1'>DIGITAL</a>
+		<a href="#" class="item-title" id="evenementiel">EVENEMENTIEL</a>
+		<a href="#" class="item-title" id="branding1">BRANDING</a>
+		<a href="#" class="item-title" id="contact1">CONTACT</a>
+		<div style="position: absolute; bottom: 60px; right: 50px; color: gray; font-family: 'Gotham Book'">
+			POLITIQUE DE CONFIDENTIALITE<br>
+		</div>
+		<div style="position: absolute; bottom: 40px; right: 50px; color: gray; font-family: 'Gotham Book'">
+			MENTIONS LEGALES
+		</div>
+	</div>
+</body>
+	
+<script src="./js/play.js"></script>
+	
+	
+</html>
